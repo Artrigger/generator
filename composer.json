@@ -9,10 +9,16 @@
             "email": "takaaki.mizuno@gmail.com"
         }
     ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Artrigger/foundation"
+        }
+    ],
     "require": {
         "php": ">=7.0",
         "icanboogie/inflector": "^1.4",
-        "laravel/framework": "5.4.*",
+        "laravel/framework": "5.5.*",
         "laravel-rocket/foundation": "1.0.*"
     },
     "require-dev": {
@@ -20,7 +26,7 @@
         "symfony/yaml": "~3.2",
         "friendsofphp/php-cs-fixer": "^2.2",
         "fzaninotto/faker": "^1.5",
-        "laravel/laravel": "5.4.*",
+        "laravel/laravel": "5.5.*",
         "doctrine/dbal": "~2.3"
     },
     "autoload": {
